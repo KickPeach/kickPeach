@@ -1,0 +1,15 @@
+{
+    "name": "kickpeach/kickpeach",
+    "description": "a micro php framework project based on my own php framework.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shisiying",
+            "email": "shisiying@xhzyxed.cn"
+        }
+    ],
+    "require": {
+        "kickpeach/framework": "dev-master"
+    }
+}
