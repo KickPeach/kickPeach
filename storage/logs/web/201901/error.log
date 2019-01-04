@@ -1,0 +1,212 @@
+[2019-01-04 15:02:28 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:06:25 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:06:27 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:06:27 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:06:27 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:06:28 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:06:28 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:06:29 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:08:12 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:08:39 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:08:39 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:11:15 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:11:15 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:11:41 PRC] /
+RuntimeException: Invalid cache file "/home/vagrant/Code/kickPeach/storage/cache/route.cache" in /home/vagrant/Code/kickPeach/vendor/nikic/fast-route/src/functions.php:53
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(75): FastRoute\cachedDispatcher(Object(Closure), Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(47): Kickpeach\Framework\Routing\Router->createDispatcher()
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(38): Kickpeach\Framework\Routing\Router->dispatch()
+#3 /home/vagrant/Code/kickPeach/app/App.php(39): Kickpeach\Framework\Routing\Router->__construct('/home/vagrant/C...')
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(81): App\App->initRouter()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(130): Kickpeach\Framework\Foundation\Application->boostrap()
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#7 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#8 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#9 {main}
+[2019-01-04 15:12:01 PRC] /
+Twig_Error_Loader: The "/home/vagrant/Code/kickPeach/app/Controllers/../public/views" directory does not exist ("/home/vagrant/Code/kickPeach/app/Controllers/../public/views"). in /home/vagrant/Code/kickPeach/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/vagrant/C...', '__main__')
+#1 /home/vagrant/Code/kickPeach/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/vagrant/Code/kickPeach/app/Controllers/Controller.php(23): Twig_Loader_Filesystem->__construct('/home/vagrant/C...')
+#3 /home/vagrant/Code/kickPeach/app/Controllers/Home/Index.php(26): App\Controllers\Controller->render('/Home/index.htm...', Array)
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(256): App\Controllers\Home\Index->index()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(135): Kickpeach\Framework\Routing\Router->execute(Object(App\App))
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(148): Kickpeach\Framework\Foundation\Application->Kickpeach\Framework\Foundation\{closure}()
+#7 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(136): Kickpeach\Framework\Foundation\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#9 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#10 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#11 {main}
+[2019-01-04 15:12:03 PRC] /
+Twig_Error_Loader: The "/home/vagrant/Code/kickPeach/app/Controllers/../public/views" directory does not exist ("/home/vagrant/Code/kickPeach/app/Controllers/../public/views"). in /home/vagrant/Code/kickPeach/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/vagrant/C...', '__main__')
+#1 /home/vagrant/Code/kickPeach/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/vagrant/Code/kickPeach/app/Controllers/Controller.php(23): Twig_Loader_Filesystem->__construct('/home/vagrant/C...')
+#3 /home/vagrant/Code/kickPeach/app/Controllers/Home/Index.php(26): App\Controllers\Controller->render('/Home/index.htm...', Array)
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Routing/Router.php(256): App\Controllers\Home\Index->index()
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(135): Kickpeach\Framework\Routing\Router->execute(Object(App\App))
+#6 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(148): Kickpeach\Framework\Foundation\Application->Kickpeach\Framework\Foundation\{closure}()
+#7 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(136): Kickpeach\Framework\Foundation\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#9 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#10 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#11 {main}

@@ -1,0 +1,410 @@
+<?php return array (
+  0 => 
+  array (
+    'GET' => 
+    array (
+      '/' => 
+      array (
+        'uses' => 'defaultHandler',
+      ),
+    ),
+    'POST' => 
+    array (
+      '/' => 
+      array (
+        'uses' => 'defaultHandler',
+      ),
+    ),
+    'PUT' => 
+    array (
+      '/' => 
+      array (
+        'uses' => 'defaultHandler',
+      ),
+    ),
+    'PATCH' => 
+    array (
+      '/' => 
+      array (
+        'uses' => 'defaultHandler',
+      ),
+    ),
+    'DELETE' => 
+    array (
+      '/' => 
+      array (
+        'uses' => 'defaultHandler',
+      ),
+    ),
+    'OPTIONS' => 
+    array (
+      '/' => 
+      array (
+        'uses' => 'defaultHandler',
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'GET' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/([^/]+)|/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)/(.+))$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+              'paths' => 'paths',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'POST' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/([^/]+)|/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)/(.+))$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+              'paths' => 'paths',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'PUT' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/([^/]+)|/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)/(.+))$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+              'paths' => 'paths',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'PATCH' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/([^/]+)|/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)/(.+))$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+              'paths' => 'paths',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'DELETE' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/([^/]+)|/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)/(.+))$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+              'paths' => 'paths',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'OPTIONS' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/([^/]+)|/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)|/([^/]+)/([^/]+)/([^/]+)/(.+))$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 
+            array (
+              'uses' => 'defaultHandler',
+            ),
+            1 => 
+            array (
+              'module' => 'module',
+              'controller' => 'controller',
+              'action' => 'action',
+              'paths' => 'paths',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);
