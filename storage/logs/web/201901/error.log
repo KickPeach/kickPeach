@@ -210,3 +210,25 @@ Stack trace:
 #9 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
 #10 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
 #11 {main}
+[2019-01-05 21:11:25 PRC] /
+ErrorException: array_reverse() expects parameter 2 to be boolean, array given in /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Pipeline/Pipeline.php:68
+Stack trace:
+#0 [internal function]: Kickpeach\Framework\Foundation\Exceptions\HandleExceptions->handleError(2, 'array_reverse()...', '/home/vagrant/C...', 68, Array)
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Pipeline/Pipeline.php(68): array_reverse(Array, Array)
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Pipeline/Pipeline.php(47): Kickpeach\Framework\Pipeline\Pipeline->Kickpeach\Framework\Pipeline\{closure}(Object(App\App))
+#3 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(146): Kickpeach\Framework\Pipeline\Pipeline->then(Object(Closure))
+#4 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(136): Kickpeach\Framework\Foundation\Application->sendThroughPipeline(Array, Object(Closure))
+#5 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#6 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#7 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#8 {main}
+[2019-01-05 21:17:27 PRC] /
+Error: Call to undefined method Kickpeach\Framework\Foundation\Middleware\Xhprof::handler() in /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Pipeline/Pipeline.php:73
+Stack trace:
+#0 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Pipeline/Pipeline.php(47): Kickpeach\Framework\Pipeline\Pipeline->Kickpeach\Framework\Pipeline\{closure}(Object(App\App))
+#1 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(146): Kickpeach\Framework\Pipeline\Pipeline->then(Object(Closure))
+#2 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(136): Kickpeach\Framework\Foundation\Application->sendThroughPipeline(Array, Object(Closure))
+#3 /home/vagrant/Code/kickPeach/vendor/kickpeach/framework/src/KickPeach/Foundation/Application.php(62): Kickpeach\Framework\Foundation\Application->handle()
+#4 /home/vagrant/Code/kickPeach/public/index.php(14): Kickpeach\Framework\Foundation\Application->run()
+#5 /home/vagrant/Code/kickPeach/index.php(9): require_once('/home/vagrant/C...')
+#6 {main}

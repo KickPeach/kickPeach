@@ -98,7 +98,7 @@ class __TwigTemplate_5531d795332e5561cf3b1f19f42efbd57ddd4df45415fe89ec6f13849a0
 
         <div class=\"links\">
             <a href=\"#\">文档</a>
-            <a href=\"#\">GitHub</a>
+            <a href=\"https://github.com/KickPeach/kickPeach\">GitHub</a>
         </div>
     </div>
 </div>
@@ -199,7 +199,7 @@ class __TwigTemplate_5531d795332e5561cf3b1f19f42efbd57ddd4df45415fe89ec6f13849a0
 
         <div class=\"links\">
             <a href=\"#\">文档</a>
-            <a href=\"#\">GitHub</a>
+            <a href=\"https://github.com/KickPeach/kickPeach\">GitHub</a>
         </div>
     </div>
 </div>

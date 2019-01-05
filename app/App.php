@@ -22,6 +22,8 @@ class App extends Application
         'view'          => [
             'cache'     => __DIR__ . '/../storage/views',
         ],
+        'xhprof_dir'    => __DIR__ . '/../public/xhprof',
+
     ];
 
     protected function __construct()
@@ -41,6 +43,6 @@ class App extends Application
 
     //全局中间件
     protected $middleware = [
-
+        \Kickpeach\Framework\Foundation\Middleware\Xhprof::class,
     ];
 }
