@@ -9,12 +9,16 @@
 namespace App;
 
 use Kickpeach\Framework\Foundation\Application;
-
+use MdCalls\MdCalls;
 use App\Exceptions\Handler;
 use App\Routing\Router;
 
 class App extends Application
 {
+    private $mdc;
+
+
+
     protected $config = [
         'debug'         => true,
         'Version'     => 'KPramework/1.0',
@@ -29,6 +33,13 @@ class App extends Application
     protected function __construct()
     {
         parent::__construct();
+        $this->mdc = MdCalls::getInstance();
+        $this->config = array_merge($this->config,$this->mdc->Kick->getConf('app'));
+    }
+
+    public function getMdc()
+    {
+        return $this->mdc;
     }
 
     protected function setExceptionsHandler()

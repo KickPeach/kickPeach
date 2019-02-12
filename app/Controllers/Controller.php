@@ -13,9 +13,13 @@ use Kickpeach\Framework\Routing\Controller as BasicController;
 
 abstract class Controller extends BasicController
 {
+    //所有控制器都可以通过mdc访问服务
+    protected $mdc;
+
     public function __construct(App $app)
     {
         parent::__construct($app);
+        $this->mdc = $app->getMdc();
     }
 
     //模板渲染

@@ -12,11 +12,18 @@
     "require": {
         "php": ">=5.6",
         "kickpeach/framework": "dev-master",
-        "twig/twig": "~2.0"
+        "twig/twig": "~2.0",
+        "kickpeach/database": "dev-master",
+        "kickpeach/queue": "dev-master",
+        "kickpeach/mdcalls": "dev-master",
+        "vlucas/phpdotenv": "^3.3@dev",
+        "predis/predis": "^2.0@dev"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "MdCalls\\": "mdcalls/"
         }
-    }
+    },
+    "minimum-stability":"dev"
 }
