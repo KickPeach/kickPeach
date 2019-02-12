@@ -14,12 +14,14 @@ use Kickpeach\Framework\Routing\Controller as BasicController;
 abstract class Controller extends BasicController
 {
     //所有控制器都可以通过mdc访问服务
-    protected $mdc;
+    private $db;
+    private $redis;
 
     public function __construct(App $app)
     {
         parent::__construct($app);
-        $this->mdc = $app->getMdc();
+        $this->db = $app->getMdc()->Kick->loadDB();
+        $this->redis = $app->getMdc()->Kick->loadRedis();
     }
 
     //模板渲染
@@ -31,6 +33,18 @@ abstract class Controller extends BasicController
         ]);
 
         return $twig->load($tpl)->render($data);
+    }
+
+    //获取db实例
+    protected function db()
+    {
+        return $this->db;
+    }
+
+    //获取redis实例
+    protected function redis()
+    {
+        return $this->redis;
     }
 
 }

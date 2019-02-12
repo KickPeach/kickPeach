@@ -65,9 +65,6 @@ class Storage extends MdCallsBasic
     private static $redisObj = [];
     /**
      * 加载Redis对象
-     * $this->ctx->loadRedis();
-     * $this->ctx->loadRedis('test');
-     *
      * @param string $redis
      * @return Redis
      */

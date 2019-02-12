@@ -23,7 +23,6 @@ class Index extends Controller
     public function index()
     {
         $name = 'KickPeach';
-        $dbObj = $this->mdc->Kick->loadDB();
         return $this->render('/Home/index.html',compact('name'));
     }
 
