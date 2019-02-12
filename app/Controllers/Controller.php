@@ -16,12 +16,14 @@ abstract class Controller extends BasicController
     //所有控制器都可以通过mdc访问服务
     private $db;
     private $redis;
+    private $mdc;
 
     public function __construct(App $app)
     {
         parent::__construct($app);
         $this->db = $app->getMdc()->Kick->loadDB();
         $this->redis = $app->getMdc()->Kick->loadRedis();
+        $this->mdc = $app->getMdc();
     }
 
     //模板渲染
@@ -47,4 +49,9 @@ abstract class Controller extends BasicController
         return $this->redis;
     }
 
+    //获取mdc实例
+    protected function getMdc()
+    {
+        return $this->mdc;
+    }
 }
