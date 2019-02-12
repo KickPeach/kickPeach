@@ -18,7 +18,7 @@ class Router extends BaseRouter
     protected function getRouteDefinition()
     {
         //先加载自定义的
-        if (PHP_SAPI=='cli'){
+        if (PHP_SAPI!='cli'){
             require __DIR__.'/../routes/web.php';
         }
         //再加载tp式的路由形式
