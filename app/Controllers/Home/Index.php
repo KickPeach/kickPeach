@@ -7,8 +7,7 @@
  */
 
 namespace App\Controllers\Home;
-
-
+use App\Models\User;
 use App\Controllers\Controller;
 
 class Index extends Controller
@@ -23,6 +22,7 @@ class Index extends Controller
     public function index()
     {
         $name = 'KickPeach';
+        $result = (new User)->getAllUsers();
         return $this->render('/Home/index.html',compact('name'));
     }
 
