@@ -87,4 +87,7 @@ Kickpeach　
 
 欢迎给Kickpeach提issue:[https://github.com/KickPeach/kickPeach/issues](https://github.com/KickPeach/kickPeach/issues)
   
-  
+
+# License
+
+The MIT License (MIT).
