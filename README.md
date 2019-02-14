@@ -57,24 +57,31 @@ Kickpeach　
    错误捕获，异常捕获，让错误可以被异常一样捕捉，并且友好的提示错误，关键函数set_error_handler，set_exception_handler，register_shutdown_function
 
 - 路由
+
    解析请求，基于fastroute组件开发，支持自定义路由以及默认路由，为了不占内存，缓存了路由，获得待处理的的模块，控制器和方法
    
 - 控制器
+
    获取每个控制器定义的中间件，先经过中间件解析处理，最后才控制器
    
 - 中间件
+
    借鉴了Laravel的pipeline编写了路由中间件
  
 - 响应
+
   模板引擎使用twig组件，支持变量赋值以及模板，支持json响应
   
 - 数据库
+
    采用第三方database组件方式，利用mdcalls提供服务
    
 - 其他友好函数
+
   日志工具类，文件读取文件，日志读取类，配置文件读取类
 
 - queue
+
   任务队列组件，支持延时队列以及失败任务重试
   
 ## TODO
