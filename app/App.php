@@ -12,11 +12,17 @@ use Kickpeach\Framework\Foundation\Application;
 use MdCalls\MdCalls;
 use App\Exceptions\Handler;
 use App\Routing\Router;
+use DebugBar\StandardDebugBar;
+
+
 
 class App extends Application
 {
     private $mdc;
 
+    public $debugbar;
+
+    public $debugbaRender;
 
 
     protected $config = [
@@ -35,6 +41,10 @@ class App extends Application
         parent::__construct();
         $this->mdc = MdCalls::getInstance();
         $this->config = array_merge($this->config,$this->mdc->Kick->getConf('app'));
+
+        $this->debugbar = new StandardDebugBar();
+
+        $this->debugbaRender = $this->debugbar->getJavascriptRenderer();
     }
 
     public function getMdc()
@@ -54,6 +64,6 @@ class App extends Application
 
     //全局中间件
     protected $middleware = [
-        \Kickpeach\Framework\Foundation\Middleware\Xhprof::class,
+//        \Kickpeach\Framework\Foundation\Middleware\Xhprof::class,
     ];
 }

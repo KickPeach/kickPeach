@@ -7,23 +7,34 @@
  */
 
 namespace App\Controllers\Home;
-use App\Models\User;
 use App\Controllers\Controller;
+use App\helpers;
+use KickPeach\Validate\Validate;
+use KickPeach\Validate\ValidateException;
+
 
 class Index extends Controller
 {
     protected static $middleware = [
         'index'=>[
-            //'\Tree6bee\Framework\Foundation\Http\Middleware\VerifyCsrfToken',
-
+            'App\Middlewares\AuthMiddleware'
         ]
     ];
 
     public function index()
     {
+        try {
+            $data = Validate::validated(['name'=>''],['name'=>'required']);
+        }catch (ValidateException $exception){
+            helpers\Helper::fail(101,$exception->getMessage());
+        }
         $name = 'KickPeach';
-        $result = (new User)->getAllUsers();
-        return $this->render('/Home/index.html',compact('name'));
+        return $this->render('/Home/index.html',compact('name'));    }
+
+    public function test()
+    {
+
+        helpers\Helper::success(['name'=>'seven']);
     }
 
 }

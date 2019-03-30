@@ -17,7 +17,10 @@
         "kickpeach/queue": "dev-master",
         "kickpeach/mdcalls": "dev-master",
         "vlucas/phpdotenv": "^3.3@dev",
-        "predis/predis": "^2.0@dev"
+        "predis/predis": "^2.0@dev",
+        "maximebf/debugbar": "^1.15@dev",
+        "kickpeach/validate": "dev-master"
+
     },
     "autoload": {
         "psr-4": {
