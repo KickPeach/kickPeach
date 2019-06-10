@@ -86,9 +86,9 @@ Kickpeach　
   
 ## TODO
 
-- [ ] 请求参数的验证模块
-- [ ] 集成[php-debugbar](https://github.com/maximebf/php-debugbar)
-- [ ] 使用kickpeach做一个demo
+- [x] 请求参数的验证模块
+- [x] 集成[php-debugbar](https://github.com/maximebf/php-debugbar)
+- [] 使用kickpeach做一个demo
 
 ## 帮助kickpeach改进
 
