@@ -16,7 +16,7 @@ class KickIndex extends MdCallsBasic
     public function init()
     {
         Dotenv::create(__DIR__ . '/../../../','.env')->load();//所有.env文件的变量都可以使用getenv($var)获取到
-        $this->config = new Config(__DIR__ . '/../../config');
+        $this->config = new Config(__DIR__ . '/../../Config');
         $this->storage = $this->loadC('Storage');
         $this->queue = $this->loadC('Queue');    }
 
