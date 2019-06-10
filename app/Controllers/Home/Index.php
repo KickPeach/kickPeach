@@ -8,7 +8,7 @@
 
 namespace App\Controllers\Home;
 use App\Controllers\Controller;
-use App\helpers;
+use App\Helpers;
 use KickPeach\Validate\Validate;
 use KickPeach\Validate\ValidateException;
 

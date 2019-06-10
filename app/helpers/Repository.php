@@ -6,7 +6,7 @@
  * Time: 22:22
  */
 
-namespace App\helpers;
+namespace App\Helpers;
 
 use ArrayAccess;
 use Kickpeach\Framework\surpport\Helpers\Arr;

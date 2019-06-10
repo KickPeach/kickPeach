@@ -9,7 +9,7 @@
 namespace MdCalls\Service\Kick;
 use Dotenv\Dotenv;
 use MdCalls\Basic\MdCallsBasic;
-use App\helpers\Config;
+use App\Helpers\Config;
 
 class KickIndex extends MdCallsBasic
 {

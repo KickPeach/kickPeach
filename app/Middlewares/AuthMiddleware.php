@@ -16,7 +16,7 @@ class AuthMiddleware
     public function handle(Application $app, Closure $next)
     {
         if (false) {
-            \App\helpers\Helper::redirect('/home/index/test');
+            \App\Helpers\Helper::redirect('/home/index/test');
         }
         $response = $next($app);
         return $response;

@@ -6,7 +6,7 @@
  * Time: 21:58
  */
 
-namespace App\helpers;
+namespace App\Helpers;
 
 
 /**

@@ -6,7 +6,7 @@
  * Time: 22:32
  */
 
-namespace App\helpers;
+namespace App\Helpers;
 
 
 class Helper
@@ -160,7 +160,7 @@ class Helper
 
         if ($return) return $json;
 
-        $ua = \App\helpers\Helper::getUserAgent();
+        $ua = \App\Helpers\Helper::getUserAgent();
 
         if (isset($ua['ua']) && $ua['ua'] == 'IE' && !self::isAjaxRequest())
             header('Content-type: text/plain');
