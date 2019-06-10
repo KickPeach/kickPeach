@@ -26,7 +26,7 @@ class Index extends Controller
         try {
             $data = Validate::validated(['name'=>''],['name'=>'required']);
         }catch (ValidateException $exception){
-            helpers\Helper::fail(101,$exception->getMessage());
+            Helpers\Helper::fail(101,$exception->getMessage());
         }
         $name = 'KickPeach';
         return $this->render('/Home/index.html',compact('name'));    }
@@ -34,7 +34,7 @@ class Index extends Controller
     public function test()
     {
 
-        helpers\Helper::success(['name'=>'seven']);
+        Helpers\Helper::success(['name'=>'seven']);
     }
 
 }

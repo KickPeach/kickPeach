@@ -9,13 +9,13 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-require_once __DIR__.'/../app/helpers/function.php';
+require_once __DIR__.'/../app/Helpers/function.php';
 
 
 \App\App::getInstance()->run();
 
 if (\App\App::getInstance()->config('debug')){
-    require_once __DIR__.'/../app/helpers/DebugBar.php';
+    require_once __DIR__.'/../app/Helpers/DebugBar.php';
 }
 
 
