@@ -7,6 +7,11 @@
 
 框架的使用文档以及组件文档可访问[https://kickpeach.github.io/](https://kickpeach.github.io/)
 
+## 框架示例网站
+
+[http://wdzs.xhzyxed.cn/](http://wdzs.xhzyxed.cn/)
+
+
 ## 框架的组织方式
 
 kickpeach项目目录参考Laravel的文件组织方式进行组织，采取组件化开发，灵活扩展升级每个组件，主要由以下几个组件完成：
@@ -88,7 +93,7 @@ Kickpeach　
 
 - [x] 请求参数的验证模块
 - [x] 集成[php-debugbar](https://github.com/maximebf/php-debugbar)
-- [] 使用kickpeach做一个demo
+- [x] 使用kickpeach做一个demo [http://wdzs.xhzyxed.cn/](http://wdzs.xhzyxed.cn/)
 
 ## 帮助kickpeach改进
 
